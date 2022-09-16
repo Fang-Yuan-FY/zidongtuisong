@@ -27,7 +27,7 @@ jobs:
           pip freeze > requirements.txt 
           --upgrade pip
           
-          pip3 install -r requirements.txt
+         
       - name: weixin
         run: |
           python3 main.py
