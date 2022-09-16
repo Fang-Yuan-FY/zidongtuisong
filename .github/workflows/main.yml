@@ -26,7 +26,7 @@ jobs:
           pip install zhdate
           pip freeze > requirements.txt 
           --upgrade pip
-          
+          pip3 install -r requirements.txt
          
       - name: weixin
         run: |
