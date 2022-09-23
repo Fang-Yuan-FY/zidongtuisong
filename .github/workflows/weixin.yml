@@ -25,5 +25,5 @@ jobs:
           python -m pip install zhdate==0.1   
       - name: weixin
         run: |
-          python3 main.py
+          python3 daily_reminder-main/main.py
 
